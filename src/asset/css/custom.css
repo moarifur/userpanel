@@ -1,0 +1,44 @@
+/**{*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*  right: 0;*/
+/*}*/
+
+.topFixedBanner {
+  background-image: url(../image/banner.jpg);
+  min-height: 550px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+}
+
+.topBannerOverlay{
+  position: absolute;
+  min-height: 550px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.topContent{
+  margin-top: 10rem;
+}
+
+.topTitle {
+  font-family: "Montserrat",sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: white;
+}
+
+.topSubTitle {
+  font-family: "Raleway",sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: white;
+}
+
