@@ -135,3 +135,71 @@
   text-align: justify;
 }
 
+/*-----------------------------  Summary.js -----------------------------------*/
+/*--------------Summary Section Background---------------*/
+.SummarySection{
+  margin-top: 5rem;
+}
+
+.SummaryBanner {
+  background-image: url(../image/SummaryBanner.jpg);
+  min-height: 350px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+}
+
+.SummaryBannerOverlay{
+  position: absolute;
+  min-height: 350px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  left: 0;
+  right: 0;
+}
+/*--------------'Bootstrap card' section---------------*/
+.SummaryCard{
+  width: 18rem;
+  padding: 10px 10px 10px 10px;
+  margin-top: 14%;
+  /*margin-top: 5rem;*/
+}
+
+.cardTitle{
+  font-weight: 600;
+  font-size: 22px;
+  color: #000000;
+  font-family: 'Raleway',sans-serif;
+}
+.cardSubTitle{
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  font-family: 'Montserreat',sans-serif;
+}
+
+.iconBullet{
+  color: #0073E6;
+  font-size: 15px;
+}
+
+/*--------------'Count up' section---------------*/
+.countSection{
+  margin-top: 16%;
+}
+
+.countNumber{
+  color: #ffffff;
+  font-family: 'Montserreat',sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+}
+.countTitle{
+  color: #ffffff;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+}
+

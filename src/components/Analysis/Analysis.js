@@ -33,7 +33,7 @@ class Analysis extends Component {
                                     </Bar>
                                     <YAxis />
                                     <Tooltip />
-                                    {/*<Legend />*/}
+                                    <Legend />
                                 </BarChart>
                             </ResponsiveContainer>
                         </Col>
