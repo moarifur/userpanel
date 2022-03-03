@@ -136,6 +136,7 @@
 }
 
 /*-----------------------------  Summary.js -----------------------------------*/
+
 /*--------------Summary Section Background---------------*/
 .SummarySection{
   margin-top: 5rem;
@@ -159,6 +160,7 @@
   left: 0;
   right: 0;
 }
+
 /*--------------'Bootstrap card' section---------------*/
 .SummaryCard{
   width: 18rem;
@@ -173,6 +175,7 @@
   color: #000000;
   font-family: 'Raleway',sans-serif;
 }
+
 .cardSubTitle{
   font-weight: 400;
   font-size: 14px;
@@ -196,6 +199,7 @@
   font-size: 48px;
   font-weight: 600;
 }
+
 .countTitle{
   color: #ffffff;
   font-family: 'Raleway',sans-serif;
@@ -203,3 +207,29 @@
   font-size: 22px;
 }
 
+/*-----------------------------  RecentProjects.js -----------------------------------*/
+
+.projectCard{
+  margin: 2px 2px 2px 2px;
+  box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+}
+
+.projectCard:hover{
+  box-shadow: 0 0 12px 0 rgba(0,115,230,0.2);
+}
+
+.projectCardImg{
+  max-height: 229px;
+}
+
+.projectCardTitle{
+  font-family: 'Montserreat',sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.projectCardSubtitle{
+  font-family: 'Raleway',sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
