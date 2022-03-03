@@ -233,3 +233,40 @@
   font-size: 15px;
   font-weight: 400;
 }
+
+/*-----------------------------  Courses.js -----------------------------------*/
+.courseRow{
+  margin-bottom: 20px;
+}
+
+/*--------------Image section---------------*/
+.courseImg{
+  width: 100%;
+}
+
+/*--------------Text section---------------*/
+.courseTitle{
+  font-family: 'Montserreat',sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.courseSubtitle{
+  font-family: 'Raleway',sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.courseDetailsLink{
+  color: #0073E6;
+  text-decoration: none;
+  font-family: 'Raleway',sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/*--------------Link section---------------*/
+.courseDetailsLink:hover{
+  text-decoration: none;
+}
+
