@@ -1,7 +1,10 @@
 import React, {Component} from 'react';
 import {Col, Container, Row} from "react-bootstrap";
 
-import courses from '../../asset/image/courses.jpg'
+import course1 from '../../asset/image/course1.jpg'
+import course2 from '../../asset/image/course2.jpg'
+import course3 from '../../asset/image/course3.jpg'
+import course4 from '../../asset/image/course4.jpg'
 
 class Courses extends Component {
     render() {
@@ -14,7 +17,7 @@ class Courses extends Component {
                         <Col lg={6} md={12} sm={12}>
                             <Row className="courseRow">
                                 <Col lg={6} md={6} sm={12}>
-                                    <img className="courseImg" src={courses} alt=''/>
+                                    <img className="courseImg" src={course1} alt=''/>
                                 </Col>
                                 <Col lg={6} md={6} sm={12}>
                                     <h5 className="courseTitle">Web Development</h5>
@@ -33,7 +36,7 @@ class Courses extends Component {
                         <Col lg={6} md={12} sm={12}>
                             <Row className="courseRow">
                                 <Col lg={6} md={6} sm={12}>
-                                    <img className="courseImg" src={courses} alt=''/>
+                                    <img className="courseImg" src={course2} alt=''/>
                                 </Col>
                                 <Col lg={6} md={6} sm={12}>
                                     <h5 className="courseTitle">Web Development</h5>
@@ -52,7 +55,7 @@ class Courses extends Component {
                         <Col lg={6} md={12} sm={12}>
                             <Row className="courseRow">
                                 <Col lg={6} md={6} sm={12}>
-                                    <img className="courseImg" src={courses} alt=''/>
+                                    <img className="courseImg" src={course3} alt=''/>
                                 </Col>
                                 <Col lg={6} md={6} sm={12}>
                                     <h5 className="courseTitle">Web Development</h5>
@@ -71,7 +74,7 @@ class Courses extends Component {
                         <Col lg={6} md={12} sm={12}>
                             <Row className="courseRow">
                                 <Col lg={6} md={6} sm={12}>
-                                    <img className="courseImg" src={courses} alt=''/>
+                                    <img className="courseImg" src={course4} alt=''/>
                                 </Col>
                                 <Col lg={6} md={6} sm={12}>
                                     <h5 className="courseTitle">Web Development</h5>

@@ -26,14 +26,14 @@ class Analysis extends Component {
                     <Row>
                         <Col lg={6} md={12} sm={12}>
                             <ResponsiveContainer width="100%" height="100%">
-                                <BarChart width={100} height={300} data={this.state.data}>
-                                    <CartesianGrid strokeDasharray="3 3" />
+                                <BarChart data={this.state.data}>
+                                    {/*<CartesianGrid strokeDasharray="3 3" />*/}
                                     <XAxis dataKey='Technology'/>
                                     <Bar dataKey='Projects' fill={'#2C82C9'}>
                                     </Bar>
-                                    <YAxis />
+                                    {/*<YAxis />*/}
                                     <Tooltip />
-                                    <Legend />
+                                    {/*<Legend />*/}
                                 </BarChart>
                             </ResponsiveContainer>
                         </Col>
@@ -49,6 +49,10 @@ class Analysis extends Component {
                                 kinds of application. I always try to provide sufficient features in
                                 admin panel to dominate application. According to client demand
                                 I use PHP OOP, CodeIgniter and Laravel to build admin panel section.
+                                <pre/>
+                                Application security is a big deal for commercial application.
+                                I always ensure security portion of my application, moreover I build
+                                a security alert system, to notify admin when his system at risk.
                                 <pre/>
                                 Application security is a big deal for commercial application.
                                 I always ensure security portion of my application, moreover I build

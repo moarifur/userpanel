@@ -2,7 +2,7 @@
 
 .topFixedBanner {
   background-image: url(../image/banner.jpg);
-  min-height: 550px;
+  min-height: 600px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -12,7 +12,7 @@
 
 .topBannerOverlay{
   position: absolute;
-  min-height: 550px;
+  min-height: 600px;
   width: 100%;
   background: rgba(0, 0, 0, 0.6);
   top: 0;
@@ -212,6 +212,7 @@
 .projectCard{
   margin: 2px 2px 2px 2px;
   box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+  width: 100%;
 }
 
 .projectCard:hover{
@@ -269,4 +270,32 @@
 .courseDetailsLink:hover{
   text-decoration: none;
 }
+
+/*-----------------------------  Video.js -----------------------------------*/
+.videoCard{
+  box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+  padding: 6rem 3rem 6rem 3rem;
+  background-color: #ffffff;
+  margin: 50px auto;
+}
+
+.videoTitle{
+  color: #0073E6;
+  font-family: 'Montserreat',sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.videoSubtitle{
+  font-family: 'Raleway',sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.playBtn{
+  color: #0073E6;
+  font-size: 48px;
+  cursor: pointer;
+}
+
 
