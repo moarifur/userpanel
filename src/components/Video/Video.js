@@ -7,6 +7,8 @@ import {faPlayCircle} from "@fortawesome/free-solid-svg-icons";
 import "video-react/dist/video-react.css"
 import {Player, BigPlayButton} from 'video-react'
 
+import mahdi from '../../asset/video/2_big_signs.mp4'
+
 class Video extends Component {
     constructor(props){
         super(props);
@@ -50,7 +52,8 @@ class Video extends Component {
                     <Modal.Body>
                         <Player
                             poster="../../asset/image/course4.jpg"
-                            src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+                            // src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+                            src={mahdi}
                         >
                             <BigPlayButton position="center" />
                         </Player>

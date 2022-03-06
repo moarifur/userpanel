@@ -298,4 +298,13 @@
   cursor: pointer;
 }
 
+/*-----------------------------  ClientReview.js -----------------------------------*/
+
+.circleImg{
+  margin: 15px auto;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #0073E6;
+  border-radius: 50%;
+}
 
