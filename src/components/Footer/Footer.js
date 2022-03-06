@@ -37,7 +37,7 @@ class Footer extends Component {
                                <br/>
                                arif201@gmail.com
                            </p>
-                           <p className='serviceDescription'>
+                           <p className='footerItemSubtitle'>
                                <FontAwesomeIcon icon={faMobileScreenButton} />
                                &nbsp; +8801701063280
                            </p>

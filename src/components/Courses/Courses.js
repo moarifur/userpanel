@@ -14,7 +14,7 @@ class Courses extends Component {
                     <h1 className='componentTitle'>OUR COURSES</h1>
                     <Row>
                         {/* 1st column */}
-                        <Col lg={6} md={12} sm={12}>
+                        <Col lg={6} md={12} sm={12} className='p-2'>
                             <Row className="courseRow">
                                 <Col lg={6} md={6} sm={12}>
                                     <img className="courseImg" src={course1} alt=''/>
@@ -22,8 +22,8 @@ class Courses extends Component {
                                 <Col lg={6} md={6} sm={12}>
                                     <h5 className="courseTitle">Web Development</h5>
                                     <p className="courseSubtitle">
-                                        I build native and cross platform web app <br/>
-                                        for your business and also mobile app for<br/>
+                                        I build native and cross platform web app
+                                        for your business and also mobile app for
                                         your organization
 
                                     </p>
@@ -33,7 +33,7 @@ class Courses extends Component {
                             </Row>
                         </Col>
                         {/* 2nd column */}
-                        <Col lg={6} md={12} sm={12}>
+                        <Col lg={6} md={12} sm={12} className='p-2'>
                             <Row className="courseRow">
                                 <Col lg={6} md={6} sm={12}>
                                     <img className="courseImg" src={course2} alt=''/>
@@ -41,8 +41,8 @@ class Courses extends Component {
                                 <Col lg={6} md={6} sm={12}>
                                     <h5 className="courseTitle">Web Development</h5>
                                     <p className="courseSubtitle">
-                                        I build native and cross platform web app <br/>
-                                        for your business and also mobile app for<br/>
+                                        I build native and cross platform web app
+                                        for your business and also mobile app for
                                         your organization
 
                                     </p>
@@ -52,7 +52,7 @@ class Courses extends Component {
                             </Row>
                         </Col>
                         {/* 3rd column */}
-                        <Col lg={6} md={12} sm={12}>
+                        <Col lg={6} md={12} sm={12} className='p-2'>
                             <Row className="courseRow">
                                 <Col lg={6} md={6} sm={12}>
                                     <img className="courseImg" src={course3} alt=''/>
@@ -60,8 +60,8 @@ class Courses extends Component {
                                 <Col lg={6} md={6} sm={12}>
                                     <h5 className="courseTitle">Web Development</h5>
                                     <p className="courseSubtitle">
-                                        I build native and cross platform web app <br/>
-                                        for your business and also mobile app for<br/>
+                                        I build native and cross platform web app
+                                        for your business and also mobile app for
                                         your organization
 
                                     </p>
@@ -71,7 +71,7 @@ class Courses extends Component {
                             </Row>
                         </Col>
                         {/* 4th column */}
-                        <Col lg={6} md={12} sm={12}>
+                        <Col lg={6} md={12} sm={12} className='p-2'>
                             <Row className="courseRow">
                                 <Col lg={6} md={6} sm={12}>
                                     <img className="courseImg" src={course4} alt=''/>
@@ -79,8 +79,8 @@ class Courses extends Component {
                                 <Col lg={6} md={6} sm={12}>
                                     <h5 className="courseTitle">Web Development</h5>
                                     <p className="courseSubtitle">
-                                        I build native and cross platform web app <br/>
-                                        for your business and also mobile app for<br/>
+                                        I build native and cross platform web app
+                                        for your business and also mobile app for
                                         your organization
 
                                     </p>

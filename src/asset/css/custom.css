@@ -21,7 +21,7 @@
 }
 
 .topContent{
-  margin-top: 10rem;
+  margin-top: 12rem;
 }
 
 .topTitle {
@@ -114,7 +114,7 @@
   text-decoration: none !important;
   font-family: 'Montserreat',sans-serif;
   font-weight: 400;
-  color: #000000 !important;
+  color: #2B2B2B !important;
 }
 
 .navBackgroundScroll{
@@ -172,14 +172,14 @@
 .cardTitle{
   font-weight: 600;
   font-size: 22px;
-  color: #000000;
+  color: #2B2B2B;
   font-family: 'Raleway',sans-serif;
 }
 
 .cardSubTitle{
   font-weight: 400;
   font-size: 14px;
-  color: #000000;
+  color: #2B2B2B;
   font-family: 'Montserreat',sans-serif;
 }
 
@@ -325,7 +325,7 @@
 }
 
 .footerItemSubtitle{
-  color: #7F7E7E;
+  color: #2B2B2B;
   font-family: 'Raleway',sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -342,7 +342,7 @@
 
 .socialMediaLink:hover{
   text-decoration: none;
-  color: #000000;
+  color: #2B2B2B;
 }
 
 .copyrightSection{
@@ -362,6 +362,6 @@
 }
 
 .copyrightLink:hover{
-  color: #000000;
+  color: #2B2B2B;
   text-decoration: none;
 }

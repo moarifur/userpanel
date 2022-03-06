@@ -12,7 +12,7 @@ class RecentProjects extends Component {
                 <Container>
                     <h1 className='componentTitle'>RECENT PROJECTS</h1>
                     <Row>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} className='p-2'>
                             <Card className='projectCard'>
                                 <Card.Img className='projectCardImg' variant="top" src={card1} />
                                 <Card.Body className='text-center'>
@@ -25,7 +25,7 @@ class RecentProjects extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} className='p-2'>
                             <Card className='projectCard'>
                                 <Card.Img className='projectCardImg' variant="top" src={card2} />
                                 <Card.Body className='text-center'>
@@ -38,7 +38,7 @@ class RecentProjects extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} className='p-2'>
                             <Card className='projectCard'>
                                 <Card.Img className='projectCardImg' variant="top" src={card3} />
                                 <Card.Body className='text-center'>

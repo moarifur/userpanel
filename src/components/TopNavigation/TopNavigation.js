@@ -13,7 +13,8 @@ class TopNavigation extends Component {
             navBarTitle:"navTitle",
             navBarLogo:[whiteLogo],
             navBarBack:"navBackground",
-            navBarItem:"navItem"
+            navBarItem:"navItem",
+            navVariant: 'dark'
         }
     }
 
@@ -23,7 +24,8 @@ class TopNavigation extends Component {
                 navBarTitle:'navTitleScroll',
                 navBarLogo:[blueLogo],
                 navBarBack:'navBackgroundScroll',
-                navBarItem:'navItemScroll'
+                navBarItem:'navItemScroll',
+                navVariant: 'light'
             })
         }
         else if(window.scrollY<100){
@@ -31,7 +33,8 @@ class TopNavigation extends Component {
                 navBarTitle:'navTitle',
                 navBarLogo:[whiteLogo],
                 navBarBack:'navBackground',
-                navBarItem:'navItem'
+                navBarItem:'navItem',
+                navVariant: 'dark'
             })
         }
     }
@@ -45,10 +48,10 @@ class TopNavigation extends Component {
             <Fragment>
                 <Navbar
                     className={this.state.navBarBack}
+                    variant={this.state.navVariant}
                     fixed='top'
                     collapseOnSelect
                     expand="lg"
-                    variant="dark"
                 >
                     <Container>
                         <Navbar.Brand className={this.state.navBarTitle}>
