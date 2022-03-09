@@ -1,14 +1,13 @@
 import "./App.css";
 import HomePage from "./pages/HomePage";
-import PageTop from "./components/PageTop/PageTop";
 import React from "react";
+import AboutPage from "./pages/AboutPage";
 
 function App() {
   return (
     <div>
         {/*<HomePage />*/}
-        <PageTop title='About Me'/>
-
+        <AboutPage />
     </div>
   );
 }
