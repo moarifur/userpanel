@@ -394,3 +394,15 @@
     color: #ffffff;
     font-size: 28px;
 }
+
+/*-----------------------------  ContactSection.js -----------------------------------*/
+
+.form-control:focus{
+  border-radius: 2px !important;
+  border-color: #0073E6 !important;
+  box-shadow: 0 0 4px rgba(0,115,230,0.2) !important;
+}
+
+.contactDetails{
+  padding-left: 5rem;
+}
