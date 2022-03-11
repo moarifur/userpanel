@@ -1,20 +1,20 @@
 import React, {Component} from 'react';
 import TopNavigation from "../components/TopNavigation/TopNavigation";
 import PageTop from "../components/PageTop/PageTop";
-import ContactSection from "../components/ContactSection/ContactSection";
 import Footer from "../components/Footer/Footer";
+import Services from "../components/Services/Services";
 
-class ContactPage extends Component {
+class ServicePage extends Component {
     render() {
         return (
             <>
-                <TopNavigation />  {/*For navigation bar*/}
-                <PageTop title="Contact Us" /> {/*For common page top section*/}
-                <ContactSection /> {/*Contact Details*/}
+                <TopNavigation/> {/*For navigation bar*/}
+                <PageTop title='My Services'/> {/*For common page top section*/}
+                <Services /> {/*Project Details*/}
                 <Footer /> {/*For footer*/}
             </>
         );
     }
 }
 
-export default ContactPage;
+export default ServicePage;

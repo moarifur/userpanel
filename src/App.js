@@ -5,6 +5,7 @@ import AboutPage from "./pages/AboutPage";
 import CoursePage from "./pages/CoursePage";
 import PortfolioPage from "./pages/PortfolioPage";
 import ContactPage from "./pages/ContactPage";
+import ServicePage from "./pages/ServicePage";
 
 function App() {
   return (
@@ -13,8 +14,8 @@ function App() {
         {/*<AboutPage />*/}
         {/*<CoursePage />*/}
         {/*<PortfolioPage />*/}
-        <ContactPage />
-
+        {/*<ContactPage />*/}
+        <ServicePage />
     </div>
   );
 }
