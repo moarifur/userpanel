@@ -10,11 +10,11 @@ import ServicePage from "./pages/ServicePage";
 function App() {
   return (
     <div>
-        {/*<HomePage />*/}
-        {/*<AboutPage />*/}
-        {/*<CoursePage />*/}
-        {/*<PortfolioPage />*/}
-        {/*<ContactPage />*/}
+        {<HomePage />}
+        {<AboutPage />}
+        {<CoursePage />}
+        {<PortfolioPage />}
+        {<ContactPage />}
         <ServicePage />
     </div>
   );
